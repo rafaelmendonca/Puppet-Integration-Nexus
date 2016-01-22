@@ -3,7 +3,7 @@
 # First create a ssh-key-gen between Puppet and Nexus with the new user "puppet-deploy", connect from puppet server -> jboss server.
 # In JBoss Server  install sudo package and configure the command for "puppet-deploy" user: sudo puppet agent -t 
 # By Rafael Mendonça
-#
+# Reference: https://github.com/cescoffier/puppet-nexus
 # How to execute: 
 # Read the file README.md
 #
