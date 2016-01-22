@@ -1,5 +1,11 @@
 #!/bin/bash
-
+# Script to integration Puppet and Nexus
+# First create a ssh-key-gen between Puppet and Nexus with the new user "puppet-deploy", connect from puppet server -> jboss server.
+# By Rafael Mendonça
+#
+# How to execute: 
+# Read the file README.md
+#
 # Define Nexus Configuration
 NEXUS_BASE=
 REST_PATH=/service/local
